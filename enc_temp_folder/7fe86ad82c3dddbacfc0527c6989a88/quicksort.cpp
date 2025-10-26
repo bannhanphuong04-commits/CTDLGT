@@ -6,10 +6,7 @@ int partition(int a[], int l, int r) {
 	while (1) {
 		do {
 			++i;
-		} while (a[i] < p);
-		do {
-			--j;
-		} while (a[j] > p);
+		} while (a[j] < p);
 		if (i < j) {
 			swap(a[i], a[j]);
 		}
