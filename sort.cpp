@@ -15,7 +15,7 @@ void selection_sort(int A[], int n) {
     }
  }
 int main() {
-    int A[100] = { 3,10,5,6,8,9,1,2,6 }, n;
+    int A[100] = { 3,10,1,23,103,34,17,53,64,71}, n;
     cin >> n;
      selection_sort(A, n);
      for (int i = 0; i < n; i++)
