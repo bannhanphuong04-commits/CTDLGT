@@ -18,13 +18,13 @@
     <ClCompile Include="CTDLGT.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="sort.cpp">
+    <ClCompile Include="selectsort.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="sort1.cpp">
+    <ClCompile Include="bubblesort.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="sort2.cpp">
+    <ClCompile Include="insertsort.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
