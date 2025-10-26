@@ -18,5 +18,8 @@
     <ClCompile Include="CTDLGT.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="sort.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

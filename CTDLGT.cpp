@@ -9,3 +9,4 @@ int main() {
     cout << "Kết quả: " << c << endl; 
     return 0;
 }
+
