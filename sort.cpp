@@ -1,19 +1,18 @@
 #include <iostream>
 using namespace std;
 void selection_sort(int A[], int n) {
-    for (int i = 0; i < n; i++) {
+    for (int i = 0; i < n-1; i++) {
        int min = i;
        for (int j = i + 1; j < n; j++) {
            if (A[j] < A[min])
                min = j;
        }
-       if (min != i) {
-           int t = A[i];
-           A[i] = A[min];
-           A[min] = t;
+    if (min != i) {
+        int t = A[i];
+        A[i] = A[min];
+        A[min] = t;
        }
     }
-    return 0;
  }
 int main() {
     int A[100] = { 3,10,5,6,8,9,1,2,6 }, n;
